@@ -1,0 +1,161 @@
+/* CSS Document */
+
+/*------------------- Begin Body Tags --------------------*/
+
+body#topFrame {
+	background-color: #6e89dd;
+	background-image: url(images/top_bg.jpg);
+	color: #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+body#leftFrame {
+	background-color: #6e89dd;
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+body#mainFrame {
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 0;
+	margin: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+/*------------------- End Body Tags --------------------*/
+
+/*------------------- Begin TopFrame Title -----------------------*/
+
+body#topFrame h1 {
+	font-size: 24px;
+	font-style:italic;
+}
+
+/*------------------- End TopFrame Title -------------------------*/
+/*------------------- Begin TopFrame Modules --------------------*/
+div#topmodule {
+	background-color: #d6dff7;	
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+div#topmodule .roundTop {
+	background: url(images/mod_tr.gif) no-repeat top right;
+}
+
+div#topmodule .roundBottom {
+	background: url(images/mod_br.gif) no-repeat top right;
+}
+
+div#topmodule .style {
+		color: #FFFFFF;
+	text-decoration: none;
+}
+
+div#topmodule img.corner {
+   width: 10px;
+   height: 10px;
+   border: none;
+   display: block !important;
+}
+
+/*------------------- End TopFrame Title -------------------------*/
+
+/*------------------- Begin LeftFrame Modules --------------------*/
+
+div#module {
+	width: 215px;
+	background-color: #d6dff7;
+}
+
+div#module .roundTop {
+	background: url(images/mod_tr.gif) no-repeat top right;
+}
+
+div#module .roundBottom {
+	background: url(images/mod_br.gif) no-repeat top right;
+}
+
+div#module img.corner {
+   width: 15px;
+   height: 15px;
+   border: none;
+   display: block !important;
+}
+
+div#module h1 {
+	margin: 0 15px;
+	font-size: 13px;
+	color: #215dc6;
+}
+
+div#module ul {
+	margin: 0;
+	padding: 0 15px;
+	list-style-type:square;
+	list-style-position: inside;
+}
+
+div#module li {
+	font-size: 13px;
+	color: #215dc6;
+}
+
+div#module a {
+	color: #215dc6;
+	text-decoration: underline;
+}
+
+div#module a:hover {
+	text-decoration: none;
+}
+
+/*------------------- End LeftFrame Modules ----------------------*/
+
+/*------------------- Begin MainFrame Content --------------------*/
+
+div#content {
+	padding: 10px;
+}
+
+div#content h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+div#content h2 {
+	font-size: 16px;
+	font-style: italic;
+}
+
+div#content h3 {
+	font-size: 12px;
+	font-style: bold;
+}
+
+div#content h4 {
+	font-size: 10px;
+	font-style: bold;
+}
+
+div#content ol {
+	list-style-type: upper-roman;
+}
+
+div#content table {
+	border: solid 1px #000;
+}
+
+div#content tr#heading {
+	background-color: #6e89dd;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+div#content tr {
+	background-color: #f0f0f0;
+}
+/*------------------- End MainFrame Content ----------------------*/
