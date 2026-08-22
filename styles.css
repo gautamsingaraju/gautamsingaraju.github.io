@@ -2,6 +2,7 @@
 
 html {
 	box-sizing: border-box;
+	color-scheme: light dark;
 }
 
 *,
@@ -101,7 +102,25 @@ body.site {
 .main {
 	max-width: 820px;
 	margin: 0 auto;
-	padding: 0 0 48px 0;
+	padding: 0 0 24px 0;
+}
+
+.site-footer {
+	max-width: 820px;
+	margin: 0 auto;
+	padding: 0 28px 36px 28px;
+	font-size: 12px;
+	color: #6b7280;
+}
+
+.site-footer p {
+	margin: 0;
+	padding-top: 16px;
+	border-top: 1px solid #e5e7eb;
+}
+
+.site-footer a {
+	color: #4b5563;
 }
 
 .table-wrap {
@@ -523,5 +542,110 @@ div#content .projects h4 {
 
 .project-body a {
 	color: #215dc6;
+}
+
+@media (prefers-color-scheme: dark) {
+	body.site {
+		background-color: #12151c;
+		color: #e6e8ec;
+	}
+
+	.site-header {
+		background-color: #151b2b;
+		border-bottom-color: #0d111a;
+	}
+
+	.home-lead {
+		color: #d8dce3;
+	}
+
+	div#content h1,
+	div#content h3,
+	div#content a {
+		color: #c5d0e8;
+	}
+
+	div#content h1 {
+		border-bottom-color: #2a3142;
+	}
+
+	.experience > li {
+		border-bottom-color: #2a3142;
+	}
+
+	.experience .place,
+	.experience .place a {
+		color: #f0f2f5;
+	}
+
+	.experience .role {
+		color: #b4bac6;
+	}
+
+	.experience .dates,
+	.education .dates {
+		color: #8b93a3;
+	}
+
+	.site-footer {
+		color: #8b93a3;
+	}
+
+	.site-footer p {
+		border-top-color: #2a3142;
+	}
+
+	.site-footer a {
+		color: #a8b0c0;
+	}
+
+	div#content table.patents th,
+	div#content table.patents td {
+		border-color: #3a4254;
+	}
+
+	div#content table.patents th.sortable:hover {
+		background-color: #2a3a5c;
+	}
+
+	div#content tr {
+		background-color: #1a2030;
+	}
+
+	div#content tr#heading,
+	div#content tr.heading {
+		background-color: #151b2b;
+	}
+
+	div#content .projects h4,
+	.project-body h5,
+	.project-body a {
+		color: #9db4e0;
+	}
+
+	.project-card {
+		background-color: #1a2030;
+		border-color: #3a4a72;
+	}
+
+	.project-media img {
+		background-color: #243056;
+	}
+
+	.project-tag {
+		background-color: #243056;
+		color: #9db4e0;
+	}
+}
+
+@media print {
+	html {
+		color-scheme: light;
+	}
+
+	body.site {
+		background-color: #ffffff;
+		color: #1a1a1a;
+	}
 }
 /*------------------- End MainFrame Content ----------------------*/

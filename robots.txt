@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gautamsingaraju.github.io/sitemap.xml
+# Preferred machine-readable profile
+# https://gautamsingaraju.github.io/llms.txt
+# https://gautamsingaraju.github.io/llms-full.txt
+# https://gautamsingaraju.github.io/profile.json

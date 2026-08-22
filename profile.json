@@ -1,0 +1,89 @@
+{
+  "name": "Gautam Singaraju",
+  "honorificSuffix": "Ph.D.",
+  "url": "https://gautamsingaraju.github.io/",
+  "jobTitle": "Senior Staff Machine Learning Engineer",
+  "worksFor": {
+    "name": "ServiceNow",
+    "url": "https://www.servicenow.com"
+  },
+  "description": "Senior Staff Machine Learning Engineer at ServiceNow. Production conversational and agentic AI; previously owned the Oracle Digital Assistant ML train-and-serve platform. Inventor on 16 granted U.S. patents.",
+  "sameAs": [
+    "https://www.linkedin.com/in/gautams",
+    "https://scholar.google.com/citations?user=sz9EMoUAAAAJ&hl=en",
+    "https://uspto.report/company/Singaraju-Gautam"
+  ],
+  "alumniOf": [
+    {
+      "name": "University of North Carolina at Charlotte",
+      "degrees": [
+        { "name": "Ph.D., Information Technology", "startDate": "2003", "endDate": "2009" },
+        { "name": "M.S., Computer Science", "startDate": "2001", "endDate": "2003" }
+      ]
+    },
+    {
+      "name": "VNR VJIET / JNTU",
+      "degrees": [
+        { "name": "B.Tech., Electronics and Communication Engineering", "startDate": "1997", "endDate": "2001" }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "organization": "ServiceNow",
+      "title": "Senior Staff Machine Learning Engineer",
+      "startDate": "2021-06",
+      "endDate": null,
+      "highlights": [
+        "Owned conversation generation for Agentic AI (https://www.servicenow.com/docs/r/intelligent-experiences/generate-conversations.html), built agentic evaluations (https://www.servicenow.com/docs/r/intelligent-experiences/agentic-evals.html) and the Agentic AI Harness at Moveworks, and shipped Now Assist summarization and reply recommendation as production features; cited in the Wall Street Journal and a ServiceNow earnings call (Pro Plus)."
+      ]
+    },
+    {
+      "organization": "Oracle",
+      "title": "Consulting Member of Technical Staff, Oracle Digital Assistant",
+      "startDate": "2016-02",
+      "endDate": "2021-06",
+      "highlights": [
+        "Owned the production ML train-and-serve platform: intent, none-class, quality, knowledge graphs, and explainability."
+      ]
+    },
+    {
+      "organization": "GE Software",
+      "title": "Senior Architect",
+      "startDate": "2014-10",
+      "endDate": "2016-01",
+      "highlights": [
+        "Built big-data analytics for industrial systems."
+      ]
+    },
+    {
+      "organization": "Electronic Arts",
+      "title": "Software Engineering Lead, EADP",
+      "startDate": "2012-03",
+      "endDate": "2014-10",
+      "highlights": [
+        "Built analytics for large-scale games."
+      ]
+    },
+    {
+      "organization": "Ask.com",
+      "title": "Senior Software Engineer",
+      "startDate": "2010-06",
+      "endDate": "2012-03",
+      "highlights": [
+        "Built search analytics."
+      ]
+    },
+    {
+      "organization": "University of North Carolina at Charlotte",
+      "title": "Postdoctoral researcher",
+      "startDate": "2009-08",
+      "endDate": "2010-05",
+      "highlights": [
+        "Analyzed botnets and domain reputation."
+      ]
+    }
+  ],
+  "grantedPatentCount": 16,
+  "patentsPage": "https://gautamsingaraju.github.io/publications.html"
+}
